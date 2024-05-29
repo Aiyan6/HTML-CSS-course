@@ -1,0 +1,28 @@
+p {
+    font-family: Arial;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.question {
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+.container {
+    border-width: 1px;
+    border-style: solid;
+    border-color: grey;
+    width: 250px;
+    height: 85px;
+}
+
+button {
+    margin-top: 15px;
+}
+
+.button1 {
+    margin-left: 15px;
+}

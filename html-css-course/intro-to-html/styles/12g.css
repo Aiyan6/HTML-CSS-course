@@ -1,0 +1,66 @@
+.profile {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 300px;
+    margin-bottom: 10px;
+}
+
+.profile-picture {
+    width: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.profile-info {
+    width: 200px;
+}
+
+.name,.description {
+    font-size: 15px;
+}
+
+.name {
+    font-weight: bold;
+}
+
+.description,.popularity {
+    color: grey;
+}
+
+.popularity {
+    font-size: 13px;
+
+}
+
+.profile-follow {
+    width:60px;
+    text-align: center;
+    margin-right: 10px;
+}
+
+p {
+    font-family: Arial;
+    margin-top: 0px;
+    margin-bottom: 3px;
+}
+
+img {
+    width: 40px;
+    border-radius: 40px;
+}
+
+button {
+    color: white;
+    background-color: rgb(0, 153, 255);
+    font-weight: bold;
+
+    border: none;
+    border-radius: 4px;
+
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 7px;
+    padding-right: 7px;
+}
+

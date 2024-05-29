@@ -1,0 +1,68 @@
+body {
+    height: 3000px;
+}
+
+.item {
+    width: 300px;
+    height: 200px;
+
+    position: relative;
+
+}
+
+.shirt {
+    width: 300px;
+}
+
+.discount {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+
+    background-color: black;
+    color: white;
+
+    border: none;
+
+    padding: 6px;
+
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+.translucent-div {
+    position: absolute;
+
+    height: 50px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+
+    background-color: rgba(255, 255, 255, 0.8);
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.add-to-cart-button {
+
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+
+    background-color: brwhiteown;
+
+
+
+}

@@ -1,0 +1,25 @@
+p {
+    font-family: Roboto;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+body {
+    margin: 0px;
+    padding-top: 80px;
+    padding-right: 24px;
+    height: 3000px;
+    background-color: rgb(255, 252, 252);
+}
+
+@media (max-width: 1200px) {
+    body {
+        padding-left: 96px;
+    }  
+}
+
+@media (min-width: 1200.01px) {
+    body {
+        padding-left: 246px;
+    }
+}

@@ -1,0 +1,9 @@
+input {
+    border-radius: 20px;
+    border: none;
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.6)
+}

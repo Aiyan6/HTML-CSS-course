@@ -1,0 +1,135 @@
+/* .sidebar {
+    background-color: white; 
+    position: fixed; 
+    top: 50px; 
+    left: 0px; 
+    bottom: 0px; 
+    width: 70px;
+
+    padding-top: 10px;
+
+    z-index: 201;
+}
+
+.sidebar-icon-container {
+
+    text-align: center;
+
+    width: 70px;
+    height: 70px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    margin-bottom: 12px;
+
+    cursor: pointer;
+}
+
+.sidebar-icon-container:hover {
+    background-color: rgb(226, 225, 225);
+}
+
+.home-icon, .explore-icon, .subscriptions-icon, .originals-icon, .youtube-music-icon, .library-icon {
+    height: 25px;
+    margin-bottom: 5px;
+}
+
+.icon-description {
+    font-size: 10px;
+} */
+
+
+@media (max-width: 1200px) {
+    .sidebar {
+        background-color: white; 
+        position: fixed; 
+        top: 50px; 
+        left: 0px; 
+        bottom: 0px; 
+        width: 70px;
+    
+        padding-top: 10px;
+    
+        z-index: 201;
+    }
+    
+    .sidebar-icon-container {
+    
+        text-align: center;
+    
+        width: 70px;
+        height: 70px;
+    
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    
+        margin-bottom: 12px;
+    
+        cursor: pointer;
+    }
+    
+    .sidebar-icon-container:hover {
+        background-color: rgb(226, 225, 225);
+    }
+    
+    .home-icon, .explore-icon, .subscriptions-icon, .originals-icon, .youtube-music-icon, .library-icon {
+        height: 25px;
+        margin-bottom: 5px;
+    }
+    
+    .icon-description {
+        font-size: 10px;
+    }
+}
+
+@media (min-width: 1200.01px) {
+    .sidebar {
+        background-color: white; 
+        position: fixed; 
+        top: 50px; 
+        left: 0px; 
+        bottom: 0px; 
+        width: 220px;
+    
+        padding-top: 10px;
+    
+        z-index: 201;
+    }
+    
+    .sidebar-icon-container {
+    
+        text-align: center;
+    
+        width: 150px;
+        height: 50px;
+    
+        display: flex;
+        justify-content: left;
+        align-items: center;
+    
+        margin-bottom: 12px;
+        margin-left: 20px;
+    
+        cursor: pointer;
+    }
+    
+    .sidebar-icon-container:hover {
+        background-color: rgb(226, 225, 225);
+    }
+    
+    .home-icon, .explore-icon, .subscriptions-icon, .originals-icon, .youtube-music-icon, .library-icon {
+        height: 30px;
+        margin-bottom: 5px;
+        margin-right: 10px;
+    }
+    
+    .icon-description {
+        font-size: 12px;
+    }
+
+}

@@ -1,0 +1,92 @@
+div {
+    font-family: Arial;
+    font-size: 14px;
+    margin: 0;
+}
+
+.tweet {
+    width: 360px;
+    padding: 12px;
+}
+
+.upper-half {
+    display: flex;
+}
+
+.profile-picture-container {
+    width: 40px;
+    margin-right: 10px;
+
+}
+
+.profile-picture {
+    width: 40px;
+    border-radius: 20px;
+
+}
+
+.post-text-container {
+    width: 350px;
+    line-height: 18px;
+
+}
+
+.handle {
+    font-weight: bold;
+    margin-bottom: 1px;
+}
+
+span {
+    font-weight: 500;
+    color: gray;
+}
+
+.lower-half {
+    width: 400px;
+    height: 80px;
+    margin-top: 10px;
+}
+
+.link-container {
+
+    display: flex;
+    border-radius: 12px;
+    height: 80px;
+    align-items: center;
+    width: 290px;
+    margin-left: 70px;
+    
+    border-width: 1px;
+    border-color: rgb(196, 194, 194);
+    border-style: solid;
+
+    overflow: hidden;
+}
+
+.thumbnail {
+    background-color: rgb(196, 194, 194);
+    height: 100%;
+    width: 80px;
+
+    margin-right: 10px;
+
+}
+
+.link-content {
+    flex: 1
+}
+
+.website {
+    margin-bottom: 3px;
+    color: grey;
+
+}
+
+.video-title {
+    line-height: 18px;
+}
+
+
+
+
+
